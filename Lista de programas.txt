@@ -1,0 +1,13 @@
+/1er parcial
+Regla falsa
+Biseccion
+Newton Raphson
+Secante
+
+/2do parcial
+Gauss-Jordan
+Descomposicion de Cholesky
+Gauss Seide
+Interpolación
+Interpolación de Lagrange
+Interpolación de Newton
