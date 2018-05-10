@@ -14,7 +14,7 @@ int main ()
     cin>>opc;
     switch(opc)
     {
-               case 1: Biseccion test(1);
+               case 1: Biseccion b(1);
                break;
     }
 

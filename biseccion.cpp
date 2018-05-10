@@ -1,19 +1,32 @@
 #include "biseccion.h"
 #include <iostream>
+#include "polinomio.h"
 
 using namespace std;
 
 Biseccion::Biseccion(int x)
 {
-    cout<<"Aqui va el programa de Biseccion\n";
+    system("cls");
+    cout<<"Metodo de Biseccion\n";
     Leer(1);
 }
 
-Biseccion::Leer(int x)
+void Biseccion::Leer(int x)
 {
-    cout<<"Leer\n";
+    Polinomio p(1);
+    cout<<"Ingrese el valor del punto a: ";
+    cin>>a;
+    cout<<"Ingrese el valor del punto b: ";
+    cin>>b;
+    cout<<"Ingrese el error permitido: ";
+    cin>>er;
+    cout<<"Ingrese el numero de intervalos: ";
+    cin>>inter;
 }
 
-Biseccion::~Biseccion()
+float Funcion(float X)
 {
+    int
 }
+
+Biseccion::~Biseccion(){}

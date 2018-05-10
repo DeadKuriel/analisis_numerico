@@ -25,6 +25,8 @@
 		<Unit filename="biseccion.cpp" />
 		<Unit filename="biseccion.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="polinomio.cpp" />
+		<Unit filename="polinomio.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

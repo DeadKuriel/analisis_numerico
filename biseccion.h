@@ -3,11 +3,14 @@
 
 class Biseccion
 {
-      int x, y;
+      int inter;
+      float a, b, er;
+
 	public:
 		// class constructor
 		Biseccion(int x);
-		Leer(int x);
+		void Leer(int x);
+		float Funcion(float X);
 		// class destructor
 		~Biseccion();
 };
