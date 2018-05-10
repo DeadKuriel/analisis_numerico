@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1525920183 source:c:\users\kur\documents\github\analisis_numerico\biseccion.cpp
+	"biseccion.h"
+	<iostream>
+
+1525920183 c:\users\kur\documents\github\analisis_numerico\biseccion.h
+
+1525919998 source:c:\users\kur\documents\github\analisis_numerico\main.cpp
+	<iostream>
+	"biseccion.h"
+

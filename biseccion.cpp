@@ -3,9 +3,15 @@
 
 using namespace std;
 
-Biseccion::Biseccion(int x, int y)
+Biseccion::Biseccion(int x)
 {
-    cout<<"Aqui va el programa de Biseccion";
+    cout<<"Aqui va el programa de Biseccion\n";
+    Leer(1);
+}
+
+Biseccion::Leer(int x)
+{
+    cout<<"Leer\n";
 }
 
 Biseccion::~Biseccion()

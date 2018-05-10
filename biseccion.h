@@ -6,7 +6,8 @@ class Biseccion
       int x, y;
 	public:
 		// class constructor
-		Biseccion(int x, int y);
+		Biseccion(int x);
+		Leer(int x);
 		// class destructor
 		~Biseccion();
 };
