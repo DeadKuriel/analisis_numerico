@@ -1,19 +1,20 @@
 # depslib dependency file v1.0
-1525922964 source:c:\users\kur\documents\github\analisis_numerico\biseccion.cpp
+1526580197 source:c:\users\kur\documents\github\analisis_numerico\biseccion.cpp
 	"biseccion.h"
 	<iostream>
 	"polinomio.h"
 
-1525922026 c:\users\kur\documents\github\analisis_numerico\biseccion.h
+1526574183 c:\users\kur\documents\github\analisis_numerico\biseccion.h
+	"polinomio.h"
 
-1525920583 source:c:\users\kur\documents\github\analisis_numerico\main.cpp
+1526576134 source:c:\users\kur\documents\github\analisis_numerico\main.cpp
 	<iostream>
 	"biseccion.h"
 
-1525926551 source:c:\users\kur\documents\github\analisis_numerico\polinomio.cpp
+1526581852 source:c:\users\kur\documents\github\analisis_numerico\polinomio.cpp
 	"polinomio.h"
 	<iostream>
 	<math.h>
 
-1525922368 c:\users\kur\documents\github\analisis_numerico\polinomio.h
+1526574183 c:\users\kur\documents\github\analisis_numerico\polinomio.h
 

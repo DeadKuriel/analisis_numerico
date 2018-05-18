@@ -4,12 +4,7 @@
 
 using namespace std;
 
-Polinomio::Polinomio(int x)
-{
-    Inicializar();
-    Leer();
-    Imprimir();
-}
+Polinomio::Polinomio(void){}
 
 
 void Polinomio::Inicializar()
@@ -63,15 +58,49 @@ void Polinomio::Inicializar(int x)
 
 void Polinomio::Imprimir()
 {
+    int h=0;
     cout<<"El Polinomio es: "<<endl;
     for(int n=GP-1; n>=0; n--)
     {
-        if(Coef[n]>0)
-            cout<<"+"<<Coef[n]<<"x^"<<Expo[n];
+        if((h==0))
+        {
+            if(Coef[n]==1)
+                cout<<"x^"<<Expo[n-1];
+            else
+                cout<<Coef[n]<<"x^"<<Expo[n-1];
+            h++;
+        }
+        else if (Expo[n]>1)
+        {
+            if(Coef[n]>1)
+                cout<<"+"<<Coef[n]<<"x^"<<Expo[n-1];
+            else if(Coef[n]==1)
+                cout<<"+"<<"x^"<<Expo[n-1];
+            else if(Coef[n]==-1)
+                cout<<"-"<<"x^"<<Expo[n-1];
+            else if(Coef[n]<0)
+                cout<<Coef[n]<<"x^"<<Expo[n-1];
+            else
+                cout<<" ";
+        }
         else
-            cout<<Coef[n]<<"x^"<<Expo[n];
+        {
+            if(Coef[n]>1)
+                cout<<"+"<<Coef[n]<<"x";
+            else if(Coef[n]==1)
+                cout<<"+"<<"x";
+            else if(Coef[n]==-1)
+                cout<<"-"<<"x";
+            else if(Coef[n]<0)
+                cout<<Coef[n]<<"x";
+            else
+                cout<<" ";
+        }
     }
-    cout<<"+"<<TI<<endl;
+    if(TI>0)
+        cout<<"+"<<TI<<endl;
+    else
+        cout<<TI<<endl;
 }
 
 float Polinomio::Evaluar(float x)
@@ -80,6 +109,7 @@ float Polinomio::Evaluar(float x)
     for(int i=0; i<=GP; i++)
     {
         s=s+pow(x,Expo[i])*Coef[i];
+        cout<<s;
     }
     s=s+TI;
     return(s);
@@ -87,7 +117,7 @@ float Polinomio::Evaluar(float x)
 
 Polinomio Polinomio::Derivar()
 {
-  /*Polinomio Fx;
+  Polinomio Fx;
     Fx.GP=GP-1;
 
     Fx.Expo = new int[GP-1];
@@ -100,7 +130,7 @@ Polinomio Polinomio::Derivar()
     }
     Fx.TI = Coef[0];
     return Fx;
-   */
+
 }
 
 

@@ -9,7 +9,7 @@ class Polinomio
 
 	public:
 		// class constructor
-		Polinomio(int x);
+		Polinomio(void);
 		void Inicializar();
 		void Leer();
 		void LeerCoef(float,int);

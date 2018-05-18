@@ -1,16 +1,18 @@
 #ifndef BISECCION_H
 #define BISECCION_H
+#include "polinomio.h"
 
 class Biseccion
 {
       int inter;
-      float a, b, er;
+      float a, b, xm, er;
 
 	public:
 		// class constructor
 		Biseccion(int x);
-		void Leer(int x);
-		float Funcion(float X);
+		Polinomio Leer(Polinomio B);
+		void Iteracion(Polinomio B);
+		//float Funcion(float X);
 		// class destructor
 		~Biseccion();
 };
