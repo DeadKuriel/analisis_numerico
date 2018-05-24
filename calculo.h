@@ -8,7 +8,7 @@ class Calculo
  
 	public:
 		// class constructor
-		(void);
+		);
 
 		// class destructor
 		~Calculo();
