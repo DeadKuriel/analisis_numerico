@@ -27,7 +27,7 @@ void Polinomio::Leer()
 {
     for (int t = (GP-1); t>=0 ; t--)
     {
-        cout<<"Teclee el coeficiente de grado "<<t+1<<": ";
+        cout<<"Teclee el coeficiente de grado "<<t<<": ";
         cin>>Coef[t];
     }
     cout<<"Ingrese el valor del termino independiente: ";

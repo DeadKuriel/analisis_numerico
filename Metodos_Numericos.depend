@@ -18,3 +18,22 @@
 
 1526574183 c:\users\kur\documents\github\analisis_numerico\polinomio.h
 
+1525960232 source:c:\users\chino\documents\github\analisis_numerico\main.cpp
+	<iostream>
+	"biseccion.h"
+
+1526664962 c:\users\chino\documents\github\analisis_numerico\biseccion.h
+	"polinomio.h"
+
+1526664962 c:\users\chino\documents\github\analisis_numerico\polinomio.h
+
+1527114071 source:c:\users\chino\documents\github\analisis_numerico\polinomio.cpp
+	"polinomio.h"
+	<iostream>
+	<math.h>
+
+1526664962 source:c:\users\chino\documents\github\analisis_numerico\biseccion.cpp
+	"biseccion.h"
+	<iostream>
+	"polinomio.h"
+
