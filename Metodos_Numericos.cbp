@@ -22,9 +22,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Matriz.cpp" />
 		<Unit filename="biseccion.cpp" />
 		<Unit filename="biseccion.h" />
+		<Unit filename="calculo.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="matriz.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="polinomio.cpp" />
 		<Unit filename="polinomio.h" />
 		<Extensions>
