@@ -4,23 +4,6 @@
 
 using namespace std;
 
-class matrix
-{
-      private:
-              nodo * inicio,* fin;
-      public:
-             void crear (int);
-             void insertarf (int,int,float);
-             nodo *buscarXY (int,int);
-             void leer ();
-             void imprimir();
-             void imprimirV();
-             void creaM (int , int );
-             void Gauss();
-             matrix() {inicio=fin=NULL; }
-
-};
-
 void matrix :: Gauss ()
 {
     float factor, n;
